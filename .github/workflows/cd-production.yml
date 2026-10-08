@@ -11,8 +11,8 @@ on:
         default: 'staging'
         type: choice
         options:
-          •  staging
-          •  production
+          - staging
+          - production
 
 concurrency:
   group: deployment-${{ github.ref }}
